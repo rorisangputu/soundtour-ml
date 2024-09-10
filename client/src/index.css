@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+/*  {
+  
+  background-image: url('/src/assets/st-bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-fixed-center-cover {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('/src/assets/MobileMAJORLEAGUE.jpg');
+}
+
+/* .bg-gogo {
+  background-size: contain;
+  background-image: url('/src/assets/gogomobile.png');
+  background-attachment: fixed;
+  background-position: 100% 10vh;
+  background-repeat: no-repeat;
+}
+.bg-logos {
+  background-size: 100% 100%;
+  background-image: url('/src/assets/mobilelogos.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-overlay {
+  background-size: cover;
+  background-image: url('/src/assets/overlaymobilethree.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+} */
+
+/* .bg-collab {
+  background-size: cover;
+  background-image: url('/src/assets/logooverlayed.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+} */
+
+/* Optionally, target specific devices like iPhone 12 */
+/* @media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+  .bg-gogo {
+    background-size: 85% auto;
+    
+    background-position: 50% 75vh;
+    
+  }
+} */
+
+@media (min-width: 1024px) {
+  .bg-fixed-center-cover {
+    background-image: url('/src/assets/deskbg.jpg');
+    background-position: top;
+  }
+
+  .bg-gogo {
+    background-image: url('/src/assets/mltranspdesk.png');
+    background-repeat: no-repeat;
+    background-position: 90% 5vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+  .bg-logos {
+    background-image: url('/src/assets/logosdesktop.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+  .bg-overlay {
+    background-image: url('/src/assets/overlay.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+  }
+}
