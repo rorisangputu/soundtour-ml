@@ -2,7 +2,7 @@ import cover from '../assets/albumcover.jpg';
 
 const Music = () => {
     return (
-        <div className="flex flex-col items-center gap-2 justify-center mb-3 space-x-4">
+        <div className="flex flex-col items-center gap-2 justify-center space-x-4">
             {/* Album Cover */}
             <div>
                 <img
