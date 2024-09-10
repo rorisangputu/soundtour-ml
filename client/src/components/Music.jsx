@@ -13,7 +13,7 @@ const Music = () => {
             </div>
             {/* Song Details */}
             <div className="text-center text-[#f6f1f1] py-5 gap-4 md:py-5 flex flex-col md:gap-4 font-sans">
-                <h1 className="text-3xl mx-20 font-bold md:text-5xl">
+                <h1 className="text-3xl mx-7 font-bold md:text-5xl">
                     MOST PRECIOUS LOVE
                 </h1>
                 <div className="mx-[72px] lg:mx-20 font-semibold md:text-2xl">
