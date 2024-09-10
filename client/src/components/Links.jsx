@@ -27,7 +27,7 @@ const Links = () => {
                         <p>Apple Music</p>
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://music.apple.com/za/album/most-precious-love-major-league-djz-luudadeejay-vs/1762020077?i=1762020078">
                             Play
                         </a>
                     </div>
@@ -37,7 +37,7 @@ const Links = () => {
                         <img src={spotify} alt="" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://open.spotify.com/track/1uCJed8EB1TYRg9zZibnPK?si=8706027c2e654df1">
                             Play
                         </a>
                     </div>
@@ -48,7 +48,7 @@ const Links = () => {
                         <img src={youtube} alt="" className="h-6 w-22 rounded-md" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kwXJZwhnSpah_A4QgI_Y_0qFiW9zyXL_Y&si=inyF8EKOyGVGFdI7">
                             Play
                         </a>
                     </div>
@@ -69,7 +69,7 @@ const Links = () => {
                         <p className="font-semibold">Amazon Music</p>
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://music.amazon.com/albums/B0DCP6MRGK?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_X6k4h9HmmeThzeXRQn03DlSSQ">
                             Play
                         </a>
                     </div>
@@ -80,7 +80,7 @@ const Links = () => {
 
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://deezer.page.link/injEAJvUbcy9swhe8">
                             Play
                         </a>
                     </div>
@@ -90,7 +90,7 @@ const Links = () => {
                         <img src={tidal} alt="" className="h-4 w-22 rounded-md" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://tidal.com/browse/track/380268549">
                             Play
                         </a>
                     </div>
@@ -100,7 +100,7 @@ const Links = () => {
                         <img src={audiomack} alt="" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
-                        <a href="https://open.spotify.com">
+                        <a href="https://audiomack.com/majorleaguedjz">
                             Play
                         </a>
                     </div>
