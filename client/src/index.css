@@ -20,7 +20,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url('/src/assets/MobileMAJORLEAGUE.jpg');
+  background-image: url('/src/assets/MobileMAJORLEAGUEnew.webp');
 }
 
 /* .bg-gogo {
@@ -66,7 +66,7 @@ html {
 
 @media (min-width: 1024px) {
   .bg-fixed-center-cover {
-    background-image: url('/src/assets/deskbg.jpg');
+    background-image: url('/src/assets/deskbgnew.webp');
     background-position: top;
   }
 
@@ -80,7 +80,7 @@ html {
   }
 
   .bg-logos {
-    background-image: url('/src/assets/logosdesktop.png');
+    background-image: url('/src/assets/logosdesktopnew.webp');
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -89,7 +89,7 @@ html {
   }
 
   .bg-overlay {
-    background-image: url('/src/assets/overlay.png');
+    background-image: url('/src/assets/newoverlay.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
