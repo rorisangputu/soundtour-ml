@@ -1,22 +1,26 @@
 import { useState } from 'react';
-import logo from '../assets/st-logo-gradient.png'
+import logo from '../assets/st-logo-gradient.png';
 import newRequest from '../Utils/newRequest.js'; // Import the axios instance
 
 const NumberModal = ({ isOpen, onClose }) => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(false); // New state for loading
 
     // Handle form submission
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(phoneNumber)
+        setIsLoading(true); // Set loading to true
+        console.log(phoneNumber);
         try {
             await newRequest.post('/', { phoneNumber });
             setIsSubmitted(true); // Show the success message
+            setIsLoading(false); // Stop loading after success
         } catch (error) {
             setError('Error submitting phone number');
             console.log(error);
+            setIsLoading(false); // Stop loading after error
         }
     };
 
@@ -25,6 +29,7 @@ const NumberModal = ({ isOpen, onClose }) => {
         setPhoneNumber(''); // Reset phone number
         setIsSubmitted(false); // Reset submission status
         setError(''); // Reset error
+        setIsLoading(false); // Reset loading
         onClose(); // Close modal
     };
 
@@ -77,14 +82,16 @@ const NumberModal = ({ isOpen, onClose }) => {
                                     type="button"
                                     onClick={handleCloseModal}
                                     className="mr-2 px-4 py-2 bg-gray-300 rounded-md"
+                                    disabled={isLoading} // Disable button while loading
                                 >
                                     Cancel
                                 </button>
                                 <button
                                     type="submit"
                                     className="px-4 py-2 bg-orange-600 text-white rounded-md"
+                                    disabled={isLoading} // Disable button while loading
                                 >
-                                    Submit
+                                    {isLoading ? 'Submitting...' : 'Submit'} {/* Show loading text */}
                                 </button>
                             </div>
                         </form>

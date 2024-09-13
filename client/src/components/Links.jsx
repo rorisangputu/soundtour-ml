@@ -22,8 +22,8 @@ const Links = () => {
         <div className="w-[80%] md:w-[50%] lg:w-[35%] mx-auto rounded-lg">
             <div id="streaming" className="w-full  mx-auto py-2 flex flex-col gap-4 items-center justify-center">
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
-                        <img src={applemusic} alt="" className="h-9 w-22" />
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
+                        <img src={applemusic} alt="" className="h-[36px] w-22" />
                         <p>Apple Music</p>
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
@@ -33,7 +33,7 @@ const Links = () => {
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-10 w-28 flex justify-center items-center">
+                    <div className="h-[40px] w-[112px] flex justify-center items-center">
                         <img src={spotify} alt="" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
@@ -44,8 +44,8 @@ const Links = () => {
                 </div>
 
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
-                        <img src={youtube} alt="" className="h-6 w-22 rounded-md" />
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
+                        <img src={youtube} alt="" className="h-[24px] w-22 rounded-md" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
                         <a href="https://music.youtube.com/playlist?list=OLAK5uy_kwXJZwhnSpah_A4QgI_Y_0qFiW9zyXL_Y&si=inyF8EKOyGVGFdI7">
@@ -54,18 +54,18 @@ const Links = () => {
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
                         <p className="font-semibold text-lg font-sans uppercase">Get The Sound</p>
                     </div>
                     <div className="text-black px-4 p-2 py-2 font-medium">
                         <button onClick={handleOpenModal}>
-                            <IoIosDownload className="h-7 w-7" />
+                            <IoIosDownload className="h-[28px] w-[28px]" />
                         </button>
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-3 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
-                        <img src={amazonmusic} alt="" className="h-9 w-22 rounded-md" />
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
+                        <img src={amazonmusic} alt="" className="h-[36px] w-22 rounded-md" />
                         <p className="font-semibold">Amazon Music</p>
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
@@ -75,8 +75,8 @@ const Links = () => {
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
-                        <img src={deezer} alt="" className="h-8 w-22 rounded-md" />
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
+                        <img src={deezer} alt="" className="h-[32px] w-22 rounded-md" />
 
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
@@ -86,8 +86,8 @@ const Links = () => {
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-40 flex justify-start gap-2 items-center text-black">
-                        <img src={tidal} alt="" className="h-4 w-22 rounded-md" />
+                    <div className="h-[48px] w-[160px] flex justify-start gap-2 items-center text-black">
+                        <img src={tidal} alt="" className="h-[16px] w-22 rounded-md" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
                         <a href="https://tidal.com/browse/track/380268549">
@@ -96,7 +96,7 @@ const Links = () => {
                     </div>
                 </div>
                 <div className="flex bg-white px-4 rounded-xl items-center justify-between py-2 w-full border-b">
-                    <div className="h-12 w-32 flex justify-center items-center">
+                    <div className="h-[48px] w-[128px] flex justify-center items-center">
                         <img src={audiomack} alt="" />
                     </div>
                     <div className="text-black px-4 p-2 py-3 font-medium bg-gray-100 rounded-md">
