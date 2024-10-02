@@ -5,7 +5,7 @@ import axios from 'axios';
 const newRequest = axios.create({
 
     // baseURL: 'http://localhost:8800',
-    baseURL: 'https://soundtour-api.onrender.com',
+    baseURL: 'https://soundtour-api-2.onrender.com',
     withCredentials: true
 });
 
