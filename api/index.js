@@ -27,7 +27,8 @@ app.use(cookieParser());
 // CORS Config
 const corsOptions = {
   
-  origin: "https://soundtour-ml.onrender.com", // Specify your front-end URL or use "*" for any origin
+  // origin: "https://soundtour-ml.onrender.com", // Specify your front-end URL or use "*" for any origin
+  origin: "https://mostpreciouslove.soundtour.co.za", // Specify your front-end URL or use "*" for any origin
   credentials: true,
 };
 app.use(cors(corsOptions));
